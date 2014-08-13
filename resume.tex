@@ -3,21 +3,46 @@
 
 \documentclass[margin]{res} 
 % the margin option causes section titles to appear to the left of body text 
-\textwidth=5.2in % increase textwidth to get smaller right margin
-\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-\usepackage{hyperref} % URL formatting
+\textwidth=5.2in          % increase textwidth to get smaller right margin
+\usepackage{hyperref}     % URL formatting
+\usepackage{fontawesome}  % Enables some HTML5-like symbols within the document
+\usepackage[OT1]{fontenc} % Get us back into my regular fonts
+\usepackage{helvetica}    % uses helvetica postscript font (download helvetica.sty)
+
+% Easy way to hide my phone number
+\newcommand{\phoneNumber}[0]{%
+  \href{tel:15555555555}{(555) 555-5555}%
+}
+% This is just a simple package that redefines the command above
+\usepackage{telephonenumber}
+
+% Custom color for links... should print well 
+\usepackage[usenames,dvipsnames]{color} 
+\definecolor{darkblue}{RGB}{0,0,102}
 
 \hypersetup{
   colorlinks = true,
-  urlcolor   = blue
+  urlcolor   = darkblue
+}
+
+\newcommand{\github}[0]%
+{%
+  \hspace{-4mm}\faGithubSign\hspace{1mm}%
 }
 
 \begin{document} 
  
   \name{Billy J. Rhoades\\[12pt]} % the \\[12pt] adds a blank line after name
    
-  \address{{\bf Email:} billy.rhoades@mst.edu}
-  \address{\url{http://brod.es/}}
+  \address{%
+    \faEnvelopeAlt\hspace{1mm}\href{mailto:billy.rhoades@mst.edu}{billy.rhoades@mst.edu}\\
+    \faPhoneSign\hspace{1mm}\phoneNumber
+  }
+  \address{%
+    \faGlobe\hspace{1mm}\href{http://brod.es/}{brod.es}\\
+    \faGithubSign\hspace{1mm}\href{http://github.com/brhoades}{github.com/brhoades}\\
+    \faDownloadAlt\hspace{1mm}\href{http://resume.brod.es/}{resume.brod.es}\\
+  }
    
   \begin{resume} 
    
@@ -69,21 +94,21 @@
 
     \section{Projects} 
       \begin{tabular}{l p{4in}}
-        \textbf{Markovirc}:            & A markov chain IRC bot which generates human-like text \\ [1pt]
-        \textbf{Selenium Wrapper}:     & A Python wrapper that simplifies headless load testing \\ [1pt]
-        \textbf{KoRPS}:                & a PHP, AJAX, and Javascript voting system integrated with PHPBB \\ [1pt]
-        \textbf{KoRx}:                 & Tremulous mod done in C with a team of 5 individuals \\ [1pt]
+        \github\textbf{Markovirc}:            & Markov chain IRC bot in Ruby which generates human-like text \\ [1pt]
+        \github\textbf{Selenium Wrapper}:     & Python wrapper that simplifies headless load testing \\ [1pt]
+        \textbf{KoRPS}:                       & AJAX and Javascript voting system integrated with PHPBB \\ [1pt]
+        \textbf{KoRx}:                        & Tremulous mod done in C with a team of 5 individuals \\ [1pt]
       \end{tabular}
 
     % Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
     \section{Computer \\ Skills}
       \begin{tabular}{l p{3.6in}}
-        \textbf{Languages}:           & C++, Ruby, Perl, Python, PHP, \LaTeX, C, Pascal, BASH, SQL \\ [1pt]
-        \textbf{Frameworks}:          & Android, Linux Kernel \\ [1pt]
-        \textbf{Software}:            & GNU Toolchain, Git, Subversion, Mercurial, MySQL, \\
-                                      & Apache. Nginx, Lighttpd, Microsoft SCCM, PostgreSQL \\ [1pt]
-        \textbf{Linux Distributions}: & Ubuntu, Debian, Fedora, CentOS, Arch \\ [1pt]
-        \textbf{Other OSes}:          & Windows 8/7/Vista/XP, Mac OS 10.7/10.8 \\ [1pt]
+        \textbf{Languages}:                   & C++, Ruby, Perl, Python, PHP, \LaTeX, C, Pascal, BASH, SQL \\ [1pt]
+        \textbf{Frameworks}:                  & Android, Linux Kernel \\ [1pt]
+        \textbf{Software}:                    & GNU Toolchain, Git, Subversion, Mercurial, MySQL, \\
+                                              & Apache. Nginx, Lighttpd, Microsoft SCCM, PostgreSQL \\ [1pt]
+        \textbf{Linux Distributions}:         & Ubuntu, Debian, Fedora, CentOS, Arch \\ [1pt]
+        \textbf{Other OSes}:                  & Windows 8/7/Vista/XP, Mac OS 10.7/10.8 \\ [1pt]
       \end{tabular}
 
   \end{resume} 
