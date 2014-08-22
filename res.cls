@@ -210,7 +210,7 @@
 \newtoks\undefined@token\undefined@token={}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% prints a centered name with the address centered
+% prints a centered name with the addres        s centered
 % or the two address on opposite sides of the page
 %
 \def\@printcentername{\begingroup

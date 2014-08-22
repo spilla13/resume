@@ -8,6 +8,8 @@
 \usepackage{fontawesome}  % Enables some HTML5-like symbols within the document
 \usepackage[OT1]{fontenc} % Get us back into my regular fonts
 \usepackage{helvetica}    % uses helvetica postscript font (download helvetica.sty)
+\usepackage{graphicx}
+
 
 % Easy way to hide my phone number
 \newcommand{\phoneNumber}[0]{%
@@ -35,8 +37,8 @@
   \name{Billy J. Rhoades\\[12pt]} % the \\[12pt] adds a blank line after name
    
   \address{%
-    \faEnvelopeAlt\hspace{1mm}\href{mailto:billy.rhoades@mst.edu}{billy.rhoades@mst.edu}\\
-    \faPhoneSign\hspace{1mm}\phoneNumber
+    \scalebox{0.86}[1]{\faEnvelopeAlt}\hspace{1mm}\href{mailto:billy.rhoades@mst.edu}{billy.rhoades@mst.edu}\\
+    \Small\faPhoneSign\hspace{1mm}\phoneNumber
   }
   \address{%
     \faGlobe\hspace{1mm}\href{http://brod.es/}{brod.es}\\
@@ -56,15 +58,15 @@
       GPA: {\bf 3.04 \slash \space 4.0}
 
     \section{Experience}
-       \textbf{Service Readiness and Optimization Co-op}\hfill Monsanto, St. Louis, MO\\
-       June 2014 -- Present
+       \textbf{Monsanto}\hfill St. Louis, MO\\
+       Service Readiness and Optimization Co-op\hfill June 2014 -- Present
        \begin{itemize} \itemsep -1pt  % reduce space between items
          \item Developed a wrapper for performance testing internal sites with Selenium
          \item Collaborated with a hackathon team to make a web-based idea board 
          \item Created a dashing dashboard to monitor SalesForce and AWS cloud status
        \end{itemize}
-       \textbf{Desktop Engineer}\hfill Missouri S\&T IT, Rolla, MO\\
-       May 2013 -- June 2014
+       \textbf{Missouri S\&T IT}\hfill Rolla, MO\\
+       Desktop Engineer\hfill May 2013 -- June 2014
        \begin{itemize} \itemsep -1pt  % reduce space between items
          \item Packaged and maintained Perl applications
          \item Used Microsoft SCCM for software and OS deployments to over 4,000 machines
@@ -72,8 +74,8 @@
          \item Maintained license servers for academic applications
        \end{itemize}
 
-       \textbf{Student Lead}\hfill  Missouri S\&T IT Campus Tech. Support, Rolla, MO\\
-       February 2013 -- June 2013
+       \textbf{Missouri S\&T IT Campus Tech. Support}\hfill  Rolla, MO\\
+       Student Lead\hfill February 2013 -- June 2013
        \begin{itemize} \itemsep -1pt  % reduce space between items
          \item Coordinated and conducted meetings for more than 20 CTS students
          \item Made and maintained procedural reference material
@@ -81,8 +83,8 @@
          \item Kept and recorded CTS student schedules across all teams
        \end{itemize}
      
-       \textbf{Student Support Analyst}\hfill Missouri S\&T IT Help Desk, Rolla, MO\\
-       February 2011 -- February 2013
+       \textbf{Missouri S\&T IT Help Desk}\hfill Rolla, MO\\
+       Student Support Analyst\hfill February 2011 -- February 2013
        \begin{itemize} \itemsep -1pt  % reduce space between items
          \item Responsible for coordinating and scheduling appointments with customers
          \item Called on to assist professors as a first contact
