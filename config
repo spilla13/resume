@@ -5,6 +5,6 @@
             "script" : "./update.sh",
             "branch" : "master",
             "remote" : "origin"
-        },
+        }
     }
 }
