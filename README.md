@@ -3,7 +3,7 @@
 - Fancy: using frigerri template
 
 TODOs:
--Standard
+- Standard
   -update info for AT&T
--Fancy
+- Fancy
   -update descriptions/details
