@@ -4,6 +4,6 @@
 
 TODOs:
 - Standard
-  -update info for AT&T
+  - update info for AT&T
 - Fancy
-  -update descriptions/details
+  - update descriptions/details
