@@ -1,0 +1,313 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15) 
+%
+% This template has been downloaded from:
+% https://github.com/mlda065/friggeri-letter
+%
+% Original author: 
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% Modifications by Matthew Davis (matthew@mdavis.xyz)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Important notes:
+% This template needs to be compiled with XeLaTeX 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+ 
+
+\begin{document} 
+ 
+\header{Samuel}{Pilla}{Software Developer} % Your name and current job title/field 
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION 
+%----------------------------------------------------------------------------------------
+
+
+\aside{contact}{
+%don't display the name in the contact details on the first page
+%because it's up the top
+%That's why there's the if statement
+\ifx \firstPage \undefined
+   \xdef\firstPage{}
+\else
+John Smith \\
+~ \\
+\fi
+4055 Laclede Avenue \\
+St. Louis, MO 63108 \\
+~  \\
+(314) 225-5470 \\
+~   \\
+\href{mailto:samuelpilla13@gmail.com}{samuelpilla13@gmail.com} \\
+\href{github.com/ArthurSemilla}{github.com/ArthurSemilla} \\
+}
+ 
+
+
+
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+ 
+\subsection{Full Time}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry 
+{2016--Now}
+{AT\&T}
+{St. Louis, MO}%side thing
+{Associate Applications Developer}
+{
+job description
+}
+
+\entry 
+{2015--2015}
+{Boeing}
+{Huntington Beach, CA}%side thing
+{Network Engineer Intern}
+{
+job description
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\subsection{Part Time}
+
+\begin{entrylist}
+
+
+\entry
+{2012--2015}
+{Missouri S\&T IT}
+{Rolla, MO}
+{Desktop Engineer}
+{ 
+Description
+}
+
+\entry
+{2015--2016}
+{Missouri S\&T}
+{Rolla, MO}
+{Teacher's Assistant}
+{ 
+Description
+}
+
+%------------------------------------------------
+
+
+\end{entrylist}
+
+
+%------------------------------------------------
+
+
+\subsection{Community Roles}
+
+\begin{entrylist}
+
+
+\entry
+{2012-Now}
+{Organisation name} 
+{}
+{Role}
+{
+description
+}
+
+
+%------------------------------------------------
+
+
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{education}
+
+\begin{entrylist} 
+
+%------------------------------------------------
+
+\entry
+{2012--2016}
+{Bachelor {\normalfont of Computer Science}}
+{University of Missouri S\&T}
+{GPA 3.16}
+{
+Thesis topic on something really cool. Electives include this, that and the other.
+}
+
+%------------------------------------------------
+
+\entry
+{2008--2012}  
+{High School Certificate}
+{St. Louis University High School}
+{Mark} 
+{
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012}
+{Bright Flight Scholarship}
+{Missouri, USA} 
+{} 
+{Awarded for achieving a 31 or higher on the ACT.}
+
+%------------------------------------------------
+
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Technical SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{technical skills}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+
+
+\entry
+{}
+{Software}
+{}
+{}
+{
+Git, Unix/Linux, Microsoft Office, Visual Studio, Configuration Manager
+}
+
+%------------------------------------------------
+
+
+\entry
+{}
+{Programming}
+{}
+{}
+{
+Confident with Python, C++ \LaTeX, Ruby, Perl, C\#
+}
+
+%------------------------------------------------
+
+
+
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Human SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{human skills}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+
+
+\entry
+{}
+{Leadership}
+{}
+{}
+{
+Blah blah blah
+}
+
+%------------------------------------------------
+
+
+\entry
+{}
+{Teamwork}
+{}
+{}
+{
+Blah blah blah
+}
+
+%------------------------------------------------
+
+
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	References SECTION 
+%----------------------------------------------------------------------------------------
+
+\section{references}
+
+
+\begin{entrylist}
+
+
+\entry
+{}
+{Name}
+{Company/Organisation}
+{Title}
+{
+Contact details here
+}
+
+
+\entry
+{}
+{Name}
+{Company/Organisation}
+{Title}
+{
+Contact details here
+}
+
+\end{entrylist} 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
