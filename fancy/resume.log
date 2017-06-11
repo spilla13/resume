@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.5.20)  10 JUN 2017 15:57
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.5.20)  11 JUN 2017 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,11 +1282,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--198
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--237
-
- []
-
-
 Overfull \hbox (13.8395pt too wide) has occurred while \output is active
  [][]\TU/Roboto-Light(2)/m/n/10 samuelpilla13@gmail.com[]
  []
@@ -1303,6 +1298,16 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 205--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 246--278
 
  []
@@ -1335,10 +1340,10 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 Here is how much of TeX's memory you used:
  38204 strings out of 493068
  755242 string characters out of 6137720
- 1206589 words of memory out of 5000000
+ 1207587 words of memory out of 5000000
  41674 multiletter control sequences out of 15000+600000
  5732 words of font info for 66 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 73i,11n,82p,10415b,3426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,11n,80p,10415b,3426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (2 pages).
