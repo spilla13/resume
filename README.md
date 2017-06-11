@@ -6,4 +6,6 @@ TODOs:
 - Standard
   - update info for AT&T
 - Fancy
-  - update descriptions/details
+  - references
+  - polish descriptions/details
+  - fix email & github alignment 
