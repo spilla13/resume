@@ -4,7 +4,7 @@
 
 TODOs:
 - Standard
-  - update info for AT&T
+  - general polishing
 - Fancy
   - references
   - polish descriptions/details
