@@ -1,10 +1,11 @@
 # Resume
-- Standard: forked from brhoades
+- Standard: forked from brhoades, one page, b&w, nothing crazy
 - Fancy: using frigerri template
 
 TODOs:
 - Standard
-  - general polishing
+  - Just keep up to date
+  - Could mess with formatting
 - Fancy
   - references
   - polish descriptions/details
