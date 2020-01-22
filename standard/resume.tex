@@ -13,11 +13,6 @@
 \usepackage{silence}
 \WarningsOff*
 
-
-% Easy way to hide my phone number
-\newcommand{\phoneNumber}[0]{%
-  \href{tel:15555555555}{(555) 555-5555}%
-}
 % This is just a simple package that redefines the command above
 %\usepackage{telephonenumber}
 
@@ -30,17 +25,16 @@
   urlcolor   = darkblue
 }
 
-\newcommand{\github}[0]%
-{%
-  \hspace{-4mm}\faGithubSign\hspace{1mm}%
-}
+%\newcommand{\github}[0]%
+%{%
+%  \hspace{-4mm}\faGithubSign\hspace{1mm}%
+%}
 
-\begin{document} 
- 
+\begin{document}
   \makebox[10cm]{\textbf{Samuel Pilla}}\\
   \makebox[10cm]{samuelpilla13@gmail.com}\\
-  \makebox[10cm]{(314) 225-5470}\\
-  \makebox[10cm]{github.com/ArthurSemilla}\\[-6mm]
+  \makebox[10cm]{(314) 225-5470}
+  %\makebox[10cm]{github.com/ArthurSemilla}\\[-6mm]
   %\address{%
    % \scalebox{0.86}[0.86]{\faEnvelopeAlt}\hspace{1mm}\href{mailto:sjpn96@mst.edu}{sjpn96@mst.edu}\\
     %\faPhoneSign\hspace{1mm}\phoneNumber
@@ -49,71 +43,67 @@
     %\faGithubSign\hspace{1mm}\href{https://github.com/brhoades}{github.com/brhoades}\\
     %\faDownloadAlt\hspace{1mm}\href{http://brod.es/}{brod.es}\\
   %}
+
+\section{Career Summary} 
+  Three and a half years of professional experience and an additional two years of part time employment in college covering full stack software development, network design and administration, and lab applications deployment. Positions included areas of telecommunications, education, and engineering industries. 
+
+\section{Experience}
+   \textbf{AT\&T}\hfill August 2016 -- Current\\
+   \textit{Member of Technical Staff} 
+   \begin{itemize} \itemsep -1pt  % reduce space between items
+    \item OpenStack development of features within the Keystone (Identity services), Helm (Kubernetes based deployment and maintenance), and Airship (automated cloud provisioning) with open source first mindset
+    \item Collaborate with other developers and operators to manage features, bugs, and defects through the use of JIRA and following Agile practices within AT\&T
+    \item Use of Python, Shell scripting, YAML configurations, Jenkins, Gerrit, and Zuul for development managment both upstream and downsream
+    \item Participate in Open Infrastructure Summits to present initiatives and concepts to improve functionality of OpenStack.
+    \item Participate in Project Team Gatherings (PTGs) to collaborate with core developers of projects to decide on priorities for the next development cycles
+   \end{itemize}
+
+   \textbf{Boeing}\hfill May 2015 -- August 2015 \\
+   \textit{IT Network Designer}\hfill 
+   \begin{itemize} \itemsep -1pt  % reduce space between items
+     \item Configured, installed, replaced, and removed networking equipment
+     \item Worked on individual and team projects across levels of network infrastructure
+     \item Learned to manage expectations with cross-functional teams, vendors, and customers
+   \end{itemize}
+
+   \textbf{Missouri S\&T Computer Science}\hfill August 2015 -- May 2016\\
+   \textit{Teacher's Assistant} 
+   \begin{itemize} \itemsep -1pt  % reduce space between items
+     \item Assisted in developing curriculum around fundamental coding standards for the Computer Science department
+     \item Worked with students to solve coding problems and learning best practices
+     \item Communicated the fundamentals of programming to new students in an easy to approach manner
+   \end{itemize}
+
+	   \textbf{Missouri S\&T IT}\hfill September 2012 -- January 2016\\
+   \textit{Desktop Engineering}\hfill
+   \begin{itemize} \itemsep -1pt  % reduce space between items
+     \item Created scripts to support software and hardware installations for the campus
+     \item Maintained and upgraded licenses for required software
+     \item Collaborated with a team to accomplish prioritized goals and objectives
+   \end{itemize}
    
-  \begin{resume} 
-    \section{Objective} 
-      Obtain full-time employment in as a software developer or like role, applying 3+ years of development experience in order to further my knowledge of the field.
+%Tabulate Technical Skills; p{3in} defines paragraph 3 inches wide
+\section{Technical Skills}
+    \textbf{Languages}: & Python, Shell, YAML, \LaTeX, Ruby, Perl, Java, C++ \\
+    \textbf{Software/Tools}: & Git, JIRA, Jenkins, Gerrit, Zuul
 
-	\section{Experience}
-	   \textbf{AT\&T}\hfill August 2016 -- Current\\
-       \textit{Associate Applications Developer} 
-       \begin{itemize} \itemsep -1pt  % reduce space between items
-         \item OpenStack upstream developer, focused on security and authentication such as PCI-DSS compliance and organization for database objects
-         \item Collaborate with other developers and operators inside and outside the company
-         \item Developed for OpenStack Helm and Airship, creating and maintaining scripts for the deployment of a cloud environment
-       \end{itemize}
-	
-       \textbf{Boeing}\hfill May 2015 -- August 2015 \\
-       \textit{IT Network Designer}\hfill 
-       \begin{itemize} \itemsep -1pt  % reduce space between items
-         \item Configured, installed, replaced, and removed networking equipment for Boeing
-         \item Worked on individual and team projects across levels of network infrastructure 
-         \item Learned the values of a business and how they are met across different departments and practices
-         \item Gained business experience with customer, vendors, partners, and co-workers
-       \end{itemize}
-
-	   \textbf{Missouri S\&T Computer Science}\hfill August 2015 -- May 2016\\
-       \textit{Teacher's Assistant} 
-       \begin{itemize} \itemsep -1pt  % reduce space between items
-         \item Assisted in developing good programming standards for the curriculum of the Computer Science department
-         \item Worked with students to solve coding problems and learning best practices
-         \item Communicated effectively with students new to coding without over complicating language from experience
-       \end{itemize}
-
-    	   \textbf{Missouri S\&T IT}\hfill September 2012 -- January 2016\\
-       \textit{Desktop Engineering}\hfill
-       \begin{itemize} \itemsep -1pt  % reduce space between items
-         \item Created scripts to support software and hardware installations for the campus
-         \item Maintained and upgraded licenses for required software
-         \item Collaborated with a team to accomplish prioritized goals and objectives
-       \end{itemize}
-
-    % Tabulate Technical Skills; p{3in} defines paragraph 3 inches wide
-    \section{Technical Skills}
-      \begin{tabular}{l p{3.6in}}
-        \textbf{Languages}:                   & Python, \LaTeX, C++, Ruby, Perl, Java, C\# \\ [1pt]
-        \textbf{Software}:                    & Git, JIRA, Microsoft Office \\ [1pt]
-
-        \textbf{OS}:           & Linux/Unix, Windows, OSX, Android \\ [1pt]
-        \textbf{Other}:                       & OSI and TCP/IP Models, IP Addressing and Subnetting \\ [1pt]
-      \end{tabular}
-
-    \section{Education}
-      Missouri University of Science and Technology \\ 
-      B.S in Computer Science, Mathematics Minor \\
-      Graduation: May 2016 \\
-      
-	\section{Awards \& Honors} 
-      \begin{tabular}{l p{4in}}
-        Bright Flight Scholarship, BSA Eagle Scout \\ [1pt]
-      \end{tabular}
-      
-	\section{Activities} 
-      \begin{tabular}{l p{4in}}
-        OASIS, Oxygen, United Way Fundraisers, American Cancer Society \\ [1pt]
-      \end{tabular}
-      
-  \end{resume} 
+\section{Certifications and Training}
+  OS250: OpenStack Accelerated Bootcamp \\
+  KD250: Accelerated Kubernetes and Docker Bootcamp
+ 
+\section{Education}
+  Missouri University of Science and Technology \\ 
+  B.S in Computer Science, May 2016
+  
+%\section{Awards \& Honors} 
+  %\begin{tabular}{l p{4in}}
+    %Bright Flight Scholarship, BSA Eagle Scout \\ [1pt]
+  %\end{tabular}
+  
+%\section{Activities} 
+  %\begin{tabular}{l p{4in}}
+    %OASIS, Oxygen, United Way Fundraisers, American Cancer Society \\ [1pt]
+  %\end{tabular}
 
 \end{document} 
 
