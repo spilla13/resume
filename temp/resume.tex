@@ -2,7 +2,6 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass[margin]{res} 
-% the margin option causes section titles to appear to the left of body text 
 \textwidth=5.2in          % increase textwidth to get smaller right margin
 \usepackage{hyperref}     % URL formatting
 \usepackage{fontawesome}  % Enables some HTML5-like symbols within the document
@@ -13,9 +12,6 @@
 \usepackage{silence}
 \WarningsOff*
 
-% This is just a simple package that redefines the command above
-%\usepackage{telephonenumber}
-
 % Custom color for links... should print well 
 \usepackage[usenames,dvipsnames]{color} 
 \definecolor{darkblue}{RGB}{0,0,102}
@@ -25,18 +21,13 @@
   urlcolor   = darkblue
 }
 
-%\newcommand{\github}[0]%
-%{%
-%  \hspace{-4mm}\faGithubSign\hspace{1mm}%
-%}
-
 \begin{document}
-  \makebox[10cm]{\textbf{Samuel Pilla}}\\
-  \makebox[10cm]{samuelpilla13@gmail.com}\\
+  \makebox[10cm]{\textbf{Samuel Pilla}}
+  \makebox[10cm]{samuelpilla13@gmail.com}
   \makebox[10cm]{(314) 225-5470}
 
 \section{Career Summary} 
-  Three and a half years of professional experience and an additional two years of part time employment in college covering full stack software development, network design and administration, and lab applications deployment. Positions included areas of telecommunications, education, and engineering industries.
+  Three and a half years of professional experience and an additional two years of part time employment in college covering full stack software development, network design and administration, and lab applications deployment. Positions included areas of telecommunications, education, and engineering industries. 
 
 \section{Experience}
    \textbf{AT\&T}\hfill August 2016 -- Current\\
@@ -46,10 +37,10 @@
     \item Collaborate with other developers and operators to manage features, bugs, and defects through the use of JIRA and following Agile practices within AT\&T
     \item Use of Python, Shell scripting, YAML configurations, Jenkins, Gerrit, and Zuul for development managment both upstream and downsream
     \item Participate in Open Infrastructure Summits to present initiatives and concepts to improve functionality of OpenStack.
-    \item Participate in Project Team Gatherings (PTGs) to collaborate with core developers of projects to decide on priorities for the next development cycles
+    \item Participate in Project Team Gatherings to collaborate with core developers of projects to decide on priorities for the next development cycles
    \end{itemize}
 
-   \textbf{Boeing}\hfill May 2015 -- August 2015 \\
+   \textbf{Boeing}\hfill May 2015 -- August 2015\\
    \textit{IT Network Designer}\hfill 
    \begin{itemize} \itemsep -1pt  % reduce space between items
      \item Configured, installed, replaced, and removed networking equipment
@@ -85,16 +76,6 @@
 \section{Education}
   Missouri University of Science and Technology \\ 
   B.S in Computer Science, May 2016
-  
-%\section{Awards \& Honors} 
-  %\begin{tabular}{l p{4in}}
-    %Bright Flight Scholarship, BSA Eagle Scout \\ [1pt]
-  %\end{tabular}
-  
-%\section{Activities} 
-  %\begin{tabular}{l p{4in}}
-    %OASIS, Oxygen, United Way Fundraisers, American Cancer Society \\ [1pt]
-  %\end{tabular}
 
 \end{document} 
 
